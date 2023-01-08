@@ -31,6 +31,8 @@ main {
       display: flex;
       flex-direction: row;
       height: 100%;
+      background: url(/img/form-bg.svg) no-repeat;
+      background-position: right bottom;
 
       .form__left-side {
         flex: 0 1 137.2px;
@@ -146,6 +148,7 @@ main {
 
 
         }
+
       }
     }
   }
