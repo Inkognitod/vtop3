@@ -1,1 +1,145 @@
-/*# sourceMappingURL=style.css.map */
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,500;0,600;0,800;0,900;1,400&display=swap");
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+main {
+  background: #F2F2F2;
+}
+
+.form {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__signup {
+  width: 665px;
+  height: 480px;
+  display: none;
+  background: #FFFFFF;
+}
+.form__signup--active {
+  display: block;
+}
+.form__signup .form-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.form__signup .form-wrapper .form__left-side {
+  flex: 0 1 137.2px;
+  width: 137.2px;
+  height: 100%;
+  background: #5A61ED;
+  position: relative;
+}
+.form__signup .form-wrapper .form__left-side .lift-side__text {
+  position: absolute;
+  width: 162px;
+  height: 63px;
+  left: 10.3%;
+  right: 65.34%;
+  bottom: calc(0% + 71.5px);
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 63px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  transform: rotate(-90deg);
+}
+.form__signup .form-wrapper .form__rigt-side {
+  flex: 0 1 527.8px;
+  padding: 38.52px 20.8px;
+}
+.form__signup .form-wrapper .form__rigt-side .signup {
+  height: 100%;
+}
+.form__signup .form-wrapper .form__rigt-side .signup .signup__header {
+  margin-bottom: 20px;
+}
+.form__signup .form-wrapper .form__rigt-side .signup .signup__header .signup__title {
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.46px;
+  color: #111111;
+}
+.form__signup .form-wrapper .form__rigt-side .signup .signup__header .signup__subtitle {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: lighter;
+  color: #111111;
+}
+.form__signup .form-wrapper .form__rigt-side .signup .signup__form {
+  height: 100%;
+}
+.form__signup .form-wrapper .form__rigt-side .signup .signup__form form {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.form__signup .form-wrapper .form__rigt-side .signup .signup__form form .form-col {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.form__signup .form-wrapper .form__rigt-side .signup .signup__form form .form-col label {
+  font-size: 12px;
+  line-height: 14px;
+  color: #7C7C7C;
+}
+.form__signup .form-wrapper .form__rigt-side .signup .signup__form form .form-col input {
+  width: 100%;
+  border-bottom: 0.7px solid #F2F2F2;
+  font-size: 14px;
+  line-height: 16px;
+  color: #111111;
+}
+.form__signup .form-wrapper .form__rigt-side .signup .signup__form form .form-btn {
+  flex: 0 1 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__signup .form-wrapper .form__rigt-side .signup .signup__form form .form-btn .login-link {
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+}
+.form__success {
+  max-width: 665px;
+  width: 100%;
+  max-height: 481px;
+  height: 100%;
+  display: none;
+}
+.form__success--active {
+  display: block;
+}
+a.link {
+  color: #5A61ED;
+  text-decoration: underline;
+}
+
+.btn {
+  width: 154px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5A61ED;
+  border: 0.5px solid #FFFFFF;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
